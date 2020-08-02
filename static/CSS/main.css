@@ -1,0 +1,116 @@
+/* General */
+body {
+  background: white;
+  font-family: SF Pro Display;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0;
+  text-align: center;
+}
+
+/* Search Bar */
+.search {
+  width: 150%;
+  height: 850%;
+  left:-30%;
+  right:30%;
+  position: relative;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 50px;
+  font-family: SF Pro Display;
+}
+
+/* Search Bar Input */
+.searchTerm {
+  width: 100%;
+  border: 3px solid #1DA1F2;
+  border-right: none;
+  padding: 5px;
+  height: 30px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: grey;
+  font-family: SF Pro Display;
+}
+
+.searchTerm:focus{
+  color: grey;
+  font-family: SF Pro Display;
+}
+
+/* Magnifying Glass Search Button */
+.searchButton {
+  width: 40px;
+  height: 46px;
+  border: 4px solid #1DA1F2;
+  background: #1DA1F2;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: SF Pro Display;
+}
+
+/* Resize the wrap to see the search bar change! */
+.wrap {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Title Text and Animation*/
+.rise-text {
+  position: fixed;
+  padding: 0px;
+  border: 100px solid #1DA1F2;
+  text-align: center;
+  width: 90%;
+  font-size: 40px;
+}
+
+/* Lower Title Text */
+.simple-text {
+  position: fixed;
+  padding: 0px;
+  text-align: center;
+  width: 90%;
+  font-size: 20px;
+}
+
+/* h1 Text */
+h1 {
+  background-color: #1DA1F2;
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  font-size: 60px;
+  top: -4%;
+  left: -1%;
+}
+
+/* Button Styling*/
+button{display: block;}
+button{display: in;}
+
+/* Categories Box */
+.categories-box{width: 100%; min-height: 50px; padding: 30px 0 0 30px;}
+
+/* Categories Buttons */
+.btnCAT {
+  background-color: #1DA1F2; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 9px solid transparent;
+  border-radius: 4px;
+  padding: 0;
+  cursor: pointer;
+}

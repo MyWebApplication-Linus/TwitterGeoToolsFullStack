@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Title -->
+	    <title>Twitter GeoTool</title>
+	    <!-- Declare Dimensions -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+        <!-- Add CSS -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="/static/CSS/main.css">
+        <!-- Add APIs -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC718kz4UTQ5OOuv45uXLow_TzSVKZghM4&libraries=places"></script>
+        <!-- Add JS -->
+        <script src="/static/JS/main.js"></script>
+    </head>
+
+    <body>
+        <!-- Title Of Page -->
+        <div class="container">
+            <h1 class="rise-text">Twitter GeoTool<p class="simple-text"> <em>A robust tool to understand whats #trending in a specific location.</em></p></h1>
+        </div>
+
+        <!-- Creating a Search Bar -->
+        <div class="wrap">
+            <div class="search">
+                <input type="text" class="searchTerm" name="searchbarr" placeholder="Please enter a location." id="searchbar">
+                <button type="submit" class="searchButton">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+
+            <div class="categories-box">
+                <a href="/" class="btnCAT">Politics</a>
+                <a href="#" class="btnCAT" >Pop Culture</a>
+                <a href="#" class="btnCAT">Food</a>
+                <a href="#" class="btnCAT">Tech</a>
+                <a href="#" class="btnCAT">Latest</a>
+            </div>
+        </div>
+
+
+        <div id="allTweets"> </div>
+        <ul id="allTweets"></ul>
+
+    </body>
+    </head>
+</html>
